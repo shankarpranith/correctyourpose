@@ -1,0 +1,39 @@
+body {
+    background-color: skyblue; /* Dark gray background */
+    color: #fff; /* White text color */
+    font-family: Arial, sans-serif;
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    min-height: 100vh; /* Make body take up full viewport height */
+    margin: 0;
+    
+    background-image: url('images/back.jpg');
+    
+}
+
+h1 {
+    color: rgb(237, 72, 31);
+    text-align: center;
+    margin-bottom: 20px;
+    
+    /* --- New & Improved --- */
+    font-family: 'Poppins', sans-serif; /* A modern, clean font */
+    font-size: 3rem; /* Make it bigger and more impactful */
+    font-weight: 700; /* Bolder text */
+    letter-spacing: 2px; /* Adds a little breathing room */
+    text-transform: uppercase; /* ALL CAPS for a strong title */
+    
+    /* A better underline using a border */
+    border-bottom: 3px solid #eee;
+    padding-bottom: 10px; /* Space between text and the line */
+}
+#canvas-container {
+    display: flex;
+    justify-content: center; /* Center the canvas horizontally */
+    align-items: center; /* Center the canvas vertically */
+    border: 2px solid #555; /* Optional: adds a border around the canvas */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    overflow: hidden; /* Ensures no content overflows the container */
+}
